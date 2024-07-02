@@ -1,13 +1,13 @@
 function validateMessage() {
-    const correctMessage = "hello";
+    const correctMessage = "ticktock";
     const userInput = document.getElementById("messageInput").value;
     const notification = document.getElementById("notification");
 
     if (userInput.toLowerCase() === correctMessage) {
-        notification.textContent = "Correct message entered!";
-        notification.style.color = "green";
+        notification.textContent = "PRP=[Insert Flag Here]";
+        notification.style.color = "blue";
     } else {
-        notification.textContent = "Incorrect message. Try again.";
+        notification.textContent = "ACCESS DENIED";
         notification.style.color = "red";
     }
 }
