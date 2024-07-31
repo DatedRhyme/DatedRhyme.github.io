@@ -1,5 +1,5 @@
 function validateMessage() {
-    const correctMessage = "ticktock";
+    const correctMessage = "Login";
     const userInput = document.getElementById("messageInput").value;
     const notification = document.getElementById("notification");
 
