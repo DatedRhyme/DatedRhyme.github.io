@@ -33,3 +33,9 @@ button {
     margin-top: 20px;
     font-weight: bold;
 }
+
+#countdown {
+    margin-top: 20px;
+    font-size: 20px;
+    color: white; /* Ensure countdown text is white */
+}
