@@ -18,6 +18,7 @@ input {
     width: 200px;
     margin-right: 10px;
     color: black; /* Set input text color to black for better visibility */
+    background-color: white; /* Ensure input background is white */
 }
 
 button {
