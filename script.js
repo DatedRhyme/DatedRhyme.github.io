@@ -1,13 +1,13 @@
 function validateMessage() {
-    const correctMessage = "hello";
+    const correctMessage = "Bobaisshort";
     const userInput = document.getElementById("messageInput").value;
     const notification = document.getElementById("notification");
 
     if (userInput.toLowerCase() === correctMessage) {
-        notification.textContent = "Correct message entered!";
+        notification.textContent = "PRP=[Flag]";
         notification.style.color = "green";
     } else {
-        notification.textContent = "Incorrect message. Try again.";
+        notification.textContent = "Access Denied.";
         notification.style.color = "red";
     }
 }
