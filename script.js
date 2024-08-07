@@ -1,5 +1,5 @@
 function validateMessage() {
-    const correctMessage = "Bobaisshort";
+    const correctMessage = "boba";
     const userInput = document.getElementById("messageInput").value;
     const notification = document.getElementById("notification");
 
